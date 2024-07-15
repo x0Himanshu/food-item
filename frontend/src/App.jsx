@@ -92,11 +92,11 @@ function App() {
   <div className='app-container'>
     <div className='header'>
       <img src="/background.jpg"></img>
-      <div className='title'>Find your recipe</div>
+      <div className='title'>Find Your Food</div>
     </div>
     <div className="tabs">
       <h1 className={(selectedTab=="search")?"tab-active":""}
-      onClick={()=>{setSelectedTab("search")}}>Find Recipe</h1>
+      onClick={()=>{setSelectedTab("search")}}>Search Food Item</h1>
       <h1 className={(selectedTab=="favorites")?"tab-active":""}
       onClick={()=>{setSelectedTab("favorites")}}>Favorites</h1>
     </div>
